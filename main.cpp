@@ -18,15 +18,15 @@ int main()
 {
     bluebtn.fall(&bttnFall);
     bluebtn.rise(&bttnRise);
-
-// this is  a program for lab 1 embedded system  module, its my first time coding it is a big learning experience
+ 
+// this is a program for lab 1 embedded system  module, its my first time coding it is a big learning experience
     while (true) {
         switch(int_trig){
         case 1:
             printf("bttnFall \r\n");
             break;
         case 2: 
-        printf("bttnRise \r\n"); 
+        printf("hello \r\n"); 
         break;  
         }
         int_trig = 0;

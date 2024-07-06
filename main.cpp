@@ -1,6 +1,9 @@
 #include "mbed.h"
 #include <cstdio>
 
+
+/*
+
 InterruptIn bluebtn(PC_13);
 
 volatile int int_trig = 0;

@@ -1,10 +1,9 @@
 #include "mbed.h"
 #include <cstdio>
 
-
-/*
-This lab needs to be studied to understand what each command means
-*/
+//
+this lab needs to be studied to understand what each command means
+//
 InterruptIn bluebtn(PC_13);
 
 volatile int int_trig = 0;
